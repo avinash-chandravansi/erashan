@@ -60,12 +60,12 @@ var result = captured ? captured : 'No Product';
         
 
         // All input fields are valid, compile message
-        var message = "Hi Rohit &#13;  I want quation on"+ "Product Name: " + productName.value + "&#13;" +
-            "My Name: " + yourName.value + "&#13;" +
-            "My Email: " + yourEmail.value + "&#13;" +
-            "Address: " + fullAddress.value + "&#13;" +
-            "Mobile Number: " + mobileNumber.value + "&#13;" +
-            "Required Quantity: " + requiredQuantity.value + "&#13;" +
+        var message = "Hi Rohit %0aI  I want quation on"+ "Product Name: " + productName.value + "%0aI" +
+            "My Name: " + yourName.value + "%0aI" +
+            "My Email: " + yourEmail.value + "%0aI" +
+            "Address: " + fullAddress.value + "%0aI" +
+            "Mobile Number: " + mobileNumber.value + "%0aI" +
+            "Required Quantity: " + requiredQuantity.value + "%0aI" +
             "Extra Instruction: " + extraInstruction.value;
 
         // Display compiled message
