@@ -71,6 +71,8 @@ var result = captured ? captured : 'No Product';
         // Display compiled message
         console.log(message);
 window.location.href ="https://api.whatsapp.com/send?phone=7007071365&text="+message;
+         //  window.location.href ="intent://send?phone=7007071365&text="message+"#Intent;scheme=whatsapp;package=com.whatsapp;end";  
+           //     <a href="intent://send?text=Hello#Intent;scheme=whatsapp;package=com.whatsapp;end" class="button">Go to Whatsapp/>
         // You can also use the compiled message for further processing as needed.
     
     }
